@@ -1,0 +1,3 @@
+# Aratame portable knowledge — schema version 1
+
+manifest.json is the exact-commit index. Pages are curated synthesis or explicitly reviewed authored knowledge, not new upstream requirements. Generated and authored origins are explicit. Citations and sourceVersions identify original evidence; provenance.json references protected Cloud snapshots. Links and hashes alone do not reconstruct originals. Raw connector envelopes, credentials, execution reports and browser state are never publication artifacts. History retains curated revisions. Test definitions never confer execution approval or canonical promotion. Read the commit pinned by the consumer, not a moving branch.

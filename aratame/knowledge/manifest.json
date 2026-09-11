@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "kind": "aratame-artifacts",
+  "files": [
+    {
+      "path": "aratame/knowledge/CONVENTIONS.md",
+      "kind": "conventions",
+      "origin": "generated",
+      "sha256": "dce7cce16f4c649485d9558929a01c43b4a33f1141a9b13f1e5ba22c71b0b84f"
+    },
+    {
+      "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
+      "kind": "knowledge",
+      "origin": "generated",
+      "sha256": "4a5cbd52e616d107cc5692607b47ec0705afbc6ebdcc6dec5374479fea8aba2c"
+    },
+    {
+      "path": "aratame/knowledge/provenance.json",
+      "kind": "provenance",
+      "origin": "generated",
+      "sha256": "bffc5f5ead79343f3f8fe7ffb187de2a6ed1c01584769105f52a8b1d40950149"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "invented-guide-1",
+      "title": "Invented shipping guide revision 1",
+      "surface": "shipping",
+      "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
+      "origin": "generated",
+      "citations": [
+        "invented-source"
+      ],
+      "sourceVersions": {
+        "invented-source": "2026-09-11T17:18:52.169Z"
+      },
+      "gaps": [],
+      "history": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "invented-source",
+      "title": "Invented shipping policy source",
+      "source": "linear",
+      "sourceUrl": "https://example.com/ara48-invented-source",
+      "updatedAt": "2026-09-11T17:18:52.169Z",
+      "sha256": "a85d72c05e015bf1047186cddbd0c3886a1872e0aff44110e6ac221c4e12a82a",
+      "retention": "cloud",
+      "snapshotId": "artifact-source:92b7c30403e875124a53b8d5540ce5918666e585d79f8eccb3f73b5c35670e4d"
+    }
+  ],
+  "cases": []
+}
