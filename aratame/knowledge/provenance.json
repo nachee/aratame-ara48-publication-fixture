@@ -14,8 +14,8 @@
   ],
   "knowledge": [
     {
-      "id": "invented-guide-1",
-      "title": "Invented shipping guide revision 1",
+      "id": "invented-guide-2",
+      "title": "Invented shipping guide revision 2",
       "surface": "shipping",
       "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
       "origin": "generated",
@@ -26,8 +26,32 @@
         "invented-source": "2026-09-11T17:03:23.224Z"
       },
       "gaps": [],
-      "history": []
+      "history": [
+        {
+          "id": "invented-guide-1",
+          "path": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md",
+          "updatedAt": "2026-09-11T17:13:00.410Z"
+        },
+        {
+          "id": "invented-guide-1",
+          "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
+          "updatedAt": "2026-09-11T17:11:06.673Z"
+        }
+      ]
     }
   ],
-  "history": []
+  "history": [
+    {
+      "id": "invented-guide-1",
+      "path": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md",
+      "updatedAt": "2026-09-11T17:13:00.410Z",
+      "provenancePath": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md"
+    },
+    {
+      "id": "invented-guide-1",
+      "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
+      "updatedAt": "2026-09-11T17:11:06.673Z",
+      "provenancePath": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md"
+    }
+  ]
 }

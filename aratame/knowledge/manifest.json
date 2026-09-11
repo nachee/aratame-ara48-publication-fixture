@@ -9,22 +9,34 @@
       "sha256": "dce7cce16f4c649485d9558929a01c43b4a33f1141a9b13f1e5ba22c71b0b84f"
     },
     {
+      "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
+      "kind": "knowledge",
+      "origin": "generated",
+      "sha256": "25008fa5de8c67e9d907d57ad3c3f4decf663964d7425a9d0379d0317ffa179e"
+    },
+    {
+      "path": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md",
+      "kind": "knowledge",
+      "origin": "generated",
+      "sha256": "14cad0b01f3d9efbb7314249d4e492d5646abc96849c12a9fb47d22ddcdbcdb0"
+    },
+    {
       "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
       "kind": "knowledge",
       "origin": "generated",
-      "sha256": "4a5cbd52e616d107cc5692607b47ec0705afbc6ebdcc6dec5374479fea8aba2c"
+      "sha256": "8dfee01620e0f807089bf9a6bef7a676a9fbd190b82ae55630d34cb1d29cd100"
     },
     {
       "path": "aratame/knowledge/provenance.json",
       "kind": "provenance",
       "origin": "generated",
-      "sha256": "b8039482f4ca80e45b1bcaf52be4ba4af9317192713b2b35e81ad656efd2ee55"
+      "sha256": "a1a4130966ee0629fea73647b20e82473570d1bc1c72e08d96ae1d27604696c1"
     }
   ],
   "knowledge": [
     {
-      "id": "invented-guide-1",
-      "title": "Invented shipping guide revision 1",
+      "id": "invented-guide-2",
+      "title": "Invented shipping guide revision 2",
       "surface": "shipping",
       "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
       "origin": "generated",
@@ -35,7 +47,18 @@
         "invented-source": "2026-09-11T17:03:23.224Z"
       },
       "gaps": [],
-      "history": []
+      "history": [
+        {
+          "id": "invented-guide-1",
+          "path": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md",
+          "updatedAt": "2026-09-11T17:13:00.410Z"
+        },
+        {
+          "id": "invented-guide-1",
+          "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
+          "updatedAt": "2026-09-11T17:11:06.673Z"
+        }
+      ]
     }
   ],
   "sources": [
