@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "kind": "aratame-artifacts",
+  "files": [
+    {
+      "path": "package.json",
+      "sha256": "68e4bf00af80d019a4816d4116b803c183ff821cdbeeab3b4df723f8d03beae1",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
+      "path": "fixtures/catalog.json",
+      "sha256": "9ce820a6feb63cdbb2b3b509b012ade618e97a0e2af4257f89821cfcf050e7e9",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
+      "path": "fixtures/reset.mjs",
+      "sha256": "e8992aa5f4392a722f2c4767f6b4c2fb820cbe069049c08dc7442c04e60cb622",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
+      "path": "fixtures/server.mjs",
+      "sha256": "0189daf028f1c4639c597cfc04892f03b22ccc3066dd8f59d11804f999895c04",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
+      "path": "playwright.config.mjs",
+      "sha256": "546388dcbaf582446efced2acabf9b0f0d6ff1c3bb59597c683ff594b46434bc",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
+      "path": "tests/shipping.spec.mjs",
+      "sha256": "59446d0836b47a9c6280e2c9e4ca0e8d484ac0593ed9f956d7ff7a3e9a4c55e7",
+      "kind": "script",
+      "origin": "authored"
+    },
+    {
+      "path": "aratame/knowledge/pages/shipping.md",
+      "sha256": "df2b956b8f250bd952cf3291acae1730ff9f9e6ea7c1ce0eb3f3f85590d85311",
+      "kind": "knowledge",
+      "origin": "generated"
+    },
+    {
+      "path": "aratame/knowledge/CONVENTIONS.md",
+      "sha256": "99d05c6cd6fbbc632941fcd89581515151d7492caaf0bac75a4a0421b663c1da",
+      "kind": "conventions",
+      "origin": "authored"
+    },
+    {
+      "path": "aratame/knowledge/provenance.json",
+      "sha256": "ec817da43180f84a774f15a30ee267bf7f9196ea78602137bd323e59c18e78b8",
+      "kind": "provenance",
+      "origin": "authored"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "29bf1747701ea9d5addfcab3058d6701bd5ccf87b18874f9cfd4c8dcc341ee15",
+      "kind": "fixture",
+      "origin": "authored"
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "invented-guide",
+      "title": "Invented shipping",
+      "surface": "shipping",
+      "path": "aratame/knowledge/pages/shipping.md",
+      "origin": "generated",
+      "citations": [
+        "invented-source"
+      ],
+      "sourceVersions": {
+        "invented-source": "2026-09-11T00:00:00.000Z"
+      },
+      "gaps": [],
+      "history": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "invented-source",
+      "title": "Invented fixture source",
+      "source": "manual",
+      "updatedAt": "2026-09-11T00:00:00.000Z",
+      "sha256": "410e57c44a69bd227dda679ecb8189589489ebe37808d23c24446a4c1016dbe4",
+      "retention": "cloud",
+      "snapshotId": "invented-protected-snapshot"
+    }
+  ],
+  "cases": [
+    {
+      "id": "ara48-shipping",
+      "version": 1,
+      "title": "Read invented shipping price",
+      "surface": "shipping",
+      "category": "regression",
+      "priority": "P1",
+      "preconditions": "Invented target running",
+      "steps": [
+        "Open shipping page",
+        "Read shipping price"
+      ],
+      "expected": "Shipping costs five credits",
+      "sourceIssues": [
+        "invented-source"
+      ],
+      "specPath": "tests/shipping.spec.mjs",
+      "specTag": "@ara48-shipping",
+      "sha256": "59446d0836b47a9c6280e2c9e4ca0e8d484ac0593ed9f956d7ff7a3e9a4c55e7",
+      "history": []
+    }
+  ]
+}

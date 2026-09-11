@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "invented-source",
+      "retention": "cloud",
+      "snapshotId": "invented-snapshot",
+      "availability": "Controlled fixture reference only; no real upstream source"
+    }
+  ]
+}
