@@ -3,6 +3,12 @@
   "kind": "aratame-artifacts",
   "files": [
     {
+      "path": "config.json",
+      "sha256": "5f6d479775c712984f62bbe2d1355f90f3659ce0788e107da1ecf25d8fb092c0",
+      "kind": "fixture",
+      "origin": "authored"
+    },
+    {
       "path": "package.json",
       "sha256": "68e4bf00af80d019a4816d4116b803c183ff821cdbeeab3b4df723f8d03beae1",
       "kind": "fixture",

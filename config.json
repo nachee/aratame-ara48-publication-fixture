@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://127.0.0.1:3049",
+  "deploymentLabel": "ARA-48 invented local target, not deployed customer behavior",
+  "playwrightConfig": "playwright.config.mjs",
+  "fixture": ["node", "fixtures/reset.mjs"],
+  "testTimeoutMs": 15000
+}
