@@ -9,10 +9,22 @@
       "sha256": "dce7cce16f4c649485d9558929a01c43b4a33f1141a9b13f1e5ba22c71b0b84f"
     },
     {
+      "path": "aratame/knowledge/history/1e7e895049690d669effc9f4fa5ea9b3.md",
+      "kind": "knowledge",
+      "origin": "generated",
+      "sha256": "82312c954c3b1d5d448ee1576eeb97190ca57e0300dbd69ccb023b482b9ed0c5"
+    },
+    {
       "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
       "kind": "knowledge",
       "origin": "generated",
       "sha256": "25008fa5de8c67e9d907d57ad3c3f4decf663964d7425a9d0379d0317ffa179e"
+    },
+    {
+      "path": "aratame/knowledge/history/8f1407c60296093e783096f67f956e22.md",
+      "kind": "knowledge",
+      "origin": "generated",
+      "sha256": "d07d05fb54cd1680a884a9674905abc1db2246323270dbb3d16be43f5d02ea2c"
     },
     {
       "path": "aratame/knowledge/history/a287989c7ec7983d5142d7efd1563794.md",
@@ -24,19 +36,19 @@
       "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
       "kind": "knowledge",
       "origin": "generated",
-      "sha256": "8dfee01620e0f807089bf9a6bef7a676a9fbd190b82ae55630d34cb1d29cd100"
+      "sha256": "99cbcb5d861d66472b66f30adb22e02f7634f3dfb12f27653cf06731ab43b176"
     },
     {
       "path": "aratame/knowledge/provenance.json",
       "kind": "provenance",
       "origin": "generated",
-      "sha256": "a1a4130966ee0629fea73647b20e82473570d1bc1c72e08d96ae1d27604696c1"
+      "sha256": "fe028225d50c04b4d4418652dcf87937ce866459ef5113eb4d413b657128ada6"
     }
   ],
   "knowledge": [
     {
-      "id": "invented-guide-2",
-      "title": "Invented shipping guide revision 2",
+      "id": "invented-guide-3",
+      "title": "Invented shipping guide revision 3",
       "surface": "shipping",
       "path": "aratame/knowledge/pages/ff7582863bb7ef5eb535d8a9ab3c136a.md",
       "origin": "generated",
@@ -54,9 +66,19 @@
           "updatedAt": "2026-09-11T17:13:00.410Z"
         },
         {
+          "id": "invented-guide-2",
+          "path": "aratame/knowledge/history/8f1407c60296093e783096f67f956e22.md",
+          "updatedAt": "2026-09-11T17:15:49.748Z"
+        },
+        {
           "id": "invented-guide-1",
           "path": "aratame/knowledge/history/309728785832bdf1e7df00426f262ba1.md",
           "updatedAt": "2026-09-11T17:11:06.673Z"
+        },
+        {
+          "id": "invented-guide-2",
+          "path": "aratame/knowledge/history/1e7e895049690d669effc9f4fa5ea9b3.md",
+          "updatedAt": "2026-09-11T17:15:27.115Z"
         }
       ]
     }
